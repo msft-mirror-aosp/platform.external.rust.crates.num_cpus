@@ -2,9 +2,6 @@
 {
   "presubmit": [
     {
-      "name": "ZipFuseTest"
-    },
-    {
       "name": "anyhow_device_test_src_lib"
     },
     {
@@ -41,9 +38,6 @@
       "name": "anyhow_device_test_tests_test_source"
     },
     {
-      "name": "authfs_device_test_src_lib"
-    },
-    {
       "name": "base64_device_test_tests_decode"
     },
     {
@@ -59,7 +53,13 @@
       "name": "futures-util_device_test_src_lib"
     },
     {
+      "name": "grpcio_device_test_src_lib"
+    },
+    {
       "name": "keystore2_selinux_concurrency_test"
+    },
+    {
+      "name": "num_cpus_device_test_src_lib"
     },
     {
       "name": "tokio-test_device_test_src_lib"
@@ -273,9 +273,6 @@
     },
     {
       "name": "unicode-xid_device_test_tests_exhaustive_tests"
-    },
-    {
-      "name": "virtualizationservice_device_test"
     }
   ]
 }
