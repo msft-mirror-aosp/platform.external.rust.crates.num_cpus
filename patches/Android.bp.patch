@@ -1,0 +1,19 @@
+diff --git a/Android.bp b/Android.bp
+index a441683..8f89a16 100644
+--- a/Android.bp
++++ b/Android.bp
+@@ -70,14 +70,6 @@ rust_defaults {
+     ],
+ }
+ 
+-rust_test_host {
+-    name: "num_cpus_host_test_src_lib",
+-    defaults: ["num_cpus_test_defaults"],
+-    test_options: {
+-        unit_test: true,
+-    },
+-}
+-
+ rust_test {
+     name: "num_cpus_device_test_src_lib",
+     defaults: ["num_cpus_test_defaults"],
