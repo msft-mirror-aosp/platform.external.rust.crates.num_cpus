@@ -53,9 +53,6 @@
       "name": "futures-util_device_test_src_lib"
     },
     {
-      "name": "grpcio_device_test_src_lib"
-    },
-    {
       "name": "keystore2_selinux_concurrency_test"
     },
     {
