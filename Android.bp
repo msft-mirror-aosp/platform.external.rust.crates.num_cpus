@@ -50,6 +50,7 @@ rust_library {
     ],
     apex_available: [
         "//apex_available:platform",
+        "com.android.bluetooth",
         "com.android.resolv",
         "com.android.uwb",
         "com.android.virt",
@@ -57,21 +58,16 @@ rust_library {
     min_sdk_version: "29",
 }
 
-rust_defaults {
-    name: "num_cpus_test_defaults",
+rust_test {
+    name: "num_cpus_test_src_lib",
     crate_name: "num_cpus",
-    srcs: ["src/lib.rs"],
     cargo_env_compat: true,
     cargo_pkg_version: "1.13.0",
+    srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
     edition: "2015",
     rustlibs: [
         "liblibc",
     ],
-}
-
-rust_test {
-    name: "num_cpus_device_test_src_lib",
-    defaults: ["num_cpus_test_defaults"],
 }
