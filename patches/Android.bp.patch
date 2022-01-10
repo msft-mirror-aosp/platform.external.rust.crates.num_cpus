@@ -2,7 +2,7 @@ diff --git a/Android.bp b/Android.bp
 index a441683..8f89a16 100644
 --- a/Android.bp
 +++ b/Android.bp
-@@ -59,16 +59,12 @@ rust_library {
+@@ -59,7 +59,6 @@ rust_library {
  
  rust_test {
      name: "num_cpus_test_src_lib",
@@ -10,12 +10,3 @@ index a441683..8f89a16 100644
      crate_name: "num_cpus",
      cargo_env_compat: true,
      cargo_pkg_version: "1.13.0",
-     srcs: ["src/lib.rs"],
-     test_suites: ["general-tests"],
-     auto_gen_config: true,
--    test_options: {
--        unit_test: true,
--    },
-     edition: "2015",
-     rustlibs: [
-         "liblibc",
