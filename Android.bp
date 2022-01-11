@@ -66,6 +66,9 @@ rust_test {
     srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
+    test_options: {
+        unit_test: false,
+    },
     edition: "2015",
     rustlibs: [
         "liblibc",
