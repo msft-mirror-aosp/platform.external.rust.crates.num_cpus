@@ -2,6 +2,7 @@
   "apex-available": [
     "//apex_available:platform",
     "com.android.bluetooth",
+    "com.android.compos",
     "com.android.resolv",
     "com.android.uwb",
     "com.android.virt"
