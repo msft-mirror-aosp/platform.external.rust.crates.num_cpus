@@ -13,5 +13,6 @@
   "no-presubmit": true,
   "patch": "patches/Android.bp.patch",
   "run": true,
-  "tests": true
+  "tests": true,
+  "vendor-available": true
 }
