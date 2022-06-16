@@ -29,29 +29,6 @@
       "path": "external/rust/crates/unicode-xid"
     }
   ],
-  "postsubmit": [
-    {
-      "name": "ZipFuseTest"
-    },
-    {
-      "name": "authfs_device_test_src_lib"
-    },
-    {
-      "name": "doh_unit_test"
-    },
-    {
-      "name": "keystore2_selinux_concurrency_test"
-    },
-    {
-      "name": "num_cpus_test_src_lib"
-    },
-    {
-      "name": "rustBinderTest"
-    },
-    {
-      "name": "virtualizationservice_device_test"
-    }
-  ],
   "presubmit": [
     {
       "name": "ZipFuseTest"
