@@ -42,7 +42,7 @@ rust_library {
     host_supported: true,
     crate_name: "num_cpus",
     cargo_env_compat: true,
-    cargo_pkg_version: "1.14.0",
+    cargo_pkg_version: "1.15.0",
     srcs: ["src/lib.rs"],
     edition: "2015",
     rustlibs: [
@@ -64,7 +64,7 @@ rust_test {
     name: "num_cpus_test_src_lib",
     crate_name: "num_cpus",
     cargo_env_compat: true,
-    cargo_pkg_version: "1.14.0",
+    cargo_pkg_version: "1.15.0",
     srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
